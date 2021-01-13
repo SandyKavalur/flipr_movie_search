@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flipr_movie_search/static/css/main.2be0f64f.chunk.css",
+    "main.js": "/flipr_movie_search/static/js/main.efcb7f16.chunk.js",
+    "main.js.map": "/flipr_movie_search/static/js/main.efcb7f16.chunk.js.map",
+    "runtime-main.js": "/flipr_movie_search/static/js/runtime-main.0c628774.js",
+    "runtime-main.js.map": "/flipr_movie_search/static/js/runtime-main.0c628774.js.map",
+    "static/js/2.4a451e89.chunk.js": "/flipr_movie_search/static/js/2.4a451e89.chunk.js",
+    "static/js/2.4a451e89.chunk.js.map": "/flipr_movie_search/static/js/2.4a451e89.chunk.js.map",
+    "static/js/3.eda667d2.chunk.js": "/flipr_movie_search/static/js/3.eda667d2.chunk.js",
+    "static/js/3.eda667d2.chunk.js.map": "/flipr_movie_search/static/js/3.eda667d2.chunk.js.map",
+    "index.html": "/flipr_movie_search/index.html",
+    "static/css/main.2be0f64f.chunk.css.map": "/flipr_movie_search/static/css/main.2be0f64f.chunk.css.map",
+    "static/js/2.4a451e89.chunk.js.LICENSE.txt": "/flipr_movie_search/static/js/2.4a451e89.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c628774.js",
+    "static/js/2.4a451e89.chunk.js",
+    "static/css/main.2be0f64f.chunk.css",
+    "static/js/main.efcb7f16.chunk.js"
+  ]
+}
