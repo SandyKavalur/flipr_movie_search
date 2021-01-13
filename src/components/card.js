@@ -2,6 +2,15 @@ import React, {useContext} from 'react';
 import {GlobalContext} from '../context/GlobalState';
 
 export const Card = ({movie}) => {
+    const visit = (obj, fn) => {
+        const values = Object.values(obj)
+    
+        values.forEach(val => 
+            val && typeof val === "object" ? visit(val, fn) : fn(val))
+    }
+    const print = (val) => console.log(val)
+    visit(movie, print)
+
     const {favlist, addMovieTofavlist} = useContext(GlobalContext);
     const storedMovie = favlist.find(o => o.id === movie.id);
     const favlistDisabled = storedMovie ? true : false;
