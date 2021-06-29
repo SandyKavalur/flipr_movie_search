@@ -11,14 +11,15 @@ export const Search = () => {
         setQuery(e.target.value);
         setTimeout(()=> fetch(
             `https://api.themoviedb.org/3/search/multi?api_key=32319e73af6b201b54f1f7fa47dcece6&language=en-US&page=1&include_adult=false&query=${e.target.value}`
-        ).then((res) => res.json())
+        ), 2000).then((res) => res.json())
         .then((data) => {
             if(!data.errors){
+                
                 setResults(data.results);
             } else {
                 setResults([]);
             }
-        }), 2000);
+        });
         
     };
 

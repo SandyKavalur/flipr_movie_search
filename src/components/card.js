@@ -3,12 +3,16 @@ import {GlobalContext} from '../context/GlobalState';
 
 export const Card = ({movie}) => {
     const visit = (obj, fn) => {
-        const values = Object.values(obj)
+        const keys = Object.keys(obj);
+        const values = Object.values(obj);
     
-        values.forEach(val => 
-            val && typeof val === "object" ? visit(val, fn) : fn(val))
+        keys.forEach(val => 
+            val && typeof val === "object" ? visit(val, fn) : console.log(val, obj[val]))
     }
-    const print = (val) => console.log(val)
+    const print = (keys, val) => {
+        const arr = []
+        
+    }
     visit(movie, print)
 
     const {favlist, addMovieTofavlist} = useContext(GlobalContext);
